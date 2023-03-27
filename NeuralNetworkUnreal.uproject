@@ -1,13 +1,16 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{3EED7177-4B98-099C-3EB4-F4B070457460}",
+	"EngineAssociation": "{C7FFA94B-41A0-F239-45D6-A8994D4BA76B}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
 		{
 			"Name": "NeuralNetworkUnreal",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
 		}
 	],
 	"Plugins": [
